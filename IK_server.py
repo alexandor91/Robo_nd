@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 
-# Copyright (C) 2017 Electric Movement Inc.
-#
-# This file is part of Robotic Arm: Pick and Place project for Udacity
-# Robotics nano-degree program
-#
-# All Rights Reserved.
 
-# Author: Harsh Pandya
+#     License:BSD
+#     This file scanner.py is to perform scanning from fixed    locations, when this node is launched, then the locations should be passed via rosservice command in another terminal, the "number" of positions and the "coordinate" should be passed through terminal to the node, then the scanning process at each location will be repeated untils the end of scanning
+#
+#    Maintainer: Alexander.Kang
+#
+#    Email: alexander.kang@tum.de
+#
+#    Date: 11.11.2017
 
 # import modules
 import rospy
